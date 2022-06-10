@@ -1,7 +1,7 @@
 // Copyright 2021 NNTU-CS
 #include "train.h"
 
-Train::Train() :countOp(0), first(nullptr), tail(nullptr) {}
+Train::Train() :countOp(0), first(nullptr), last(nullptr) {}
 
 Train::Cage* Train::create(bool light) {
   Cage *cage = new Cage;
